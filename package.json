@@ -42,6 +42,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "echo 'No tests for icon-only adapter'",
+    "test:package": "mocha test/package --exit",
     "release": "release-script",
     "release-patch": "release-script patch --yes",
     "release-minor": "release-script minor --yes",
